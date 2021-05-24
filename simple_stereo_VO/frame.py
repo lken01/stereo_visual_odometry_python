@@ -110,8 +110,8 @@ class Frame:
 
 
     def transform_3Dpoints(self,pose):
-        R = pose["rmat"]
-        t = pose["tvec"]
+        R = np.array(pose["rmat"])
+        t = np.array(pose["tvec"])
         transformed_points = np.array([])
         for idx in range(len(self.points3d)):
             if self.points3d[idx][0] is not None:
