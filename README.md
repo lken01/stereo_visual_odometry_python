@@ -2,6 +2,7 @@
 A PnP based simple stereo visual odometry - Python implementation
 
 Python version used: 3.7.2
+OpenCV version used: 4.1.0
 
 Following is the scehmatic representation of the implementation:
 
